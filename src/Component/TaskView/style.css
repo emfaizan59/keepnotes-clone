@@ -1,0 +1,45 @@
+.cardView{
+    color : white ;
+    background-color: transparent;
+    overflow: hidden;
+    border : 1px solid #595954 ; 
+ 
+    border-radius: 20px;
+    padding: 15px 10px 0px 15px;
+    margin-top: 30px;
+    height: 300px;
+}
+
+p {
+    text-align : left;
+    background-color:transparent ;
+    border : none ;
+    color:  white ;
+    width:  100%; 
+    resize: none;
+    height : 210px;
+    outline: none;   
+    overflow: auto;
+}
+
+ .iconTack{
+     position: absolute;
+        right: 09%;
+    visibility: hidden;
+    }
+
+.iconBottom {
+    position: relative;
+    bottom: 05%;
+    margin-right: 10px;
+    float: right;
+    width: 50px;
+    height: 50px;
+    visibility: hidden; 
+    
+}    
+.cardView:hover .iconTack , .cardView:hover  .iconBottom {
+    visibility: visible;
+}
+
+

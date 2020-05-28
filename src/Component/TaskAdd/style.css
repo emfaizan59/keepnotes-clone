@@ -1,0 +1,68 @@
+.main {
+    margin-top: 20px;
+}
+
+
+.note {
+    width : 50% ;
+    height:50px ;
+    border-radius :10px ; 
+    background-color:transparent ; 
+    border : 1px solid #595954 ; 
+    margin-top : 10px ;
+    color : white ; 
+    padding-left : 10px
+}
+
+
+.mainNote{
+    width : 50% ;
+
+    border-radius :10px ; 
+    background-color:transparent ; 
+    border : 1px solid #595954 ; 
+    margin-top : 10px ;
+    color : white ; 
+    overflow: hidden;
+    margin: 0 auto;
+    
+}
+
+.mainNote input {
+    background-color:transparent ;
+    border : none ;
+    color:  white ;
+    height: 45px ;
+    width:  100%; 
+    padding-left: 10px;
+    outline: none;
+}
+
+.mainNote textarea {
+    background-color:transparent ;
+    border : none ;
+    color:  white ;
+    width:  100%; 
+    padding-left: 10px;
+    resize: inherit;
+    outline: none;
+}
+
+.mainNote button {
+    background-color: transparent;
+    border: none; 
+    color:  white ;
+    padding: 12px;
+    margin-right: 10px;
+    border-radius: 10px;
+    float: right;
+    width: 70px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mainNote button:hover {
+    background-color: #383834;
+}
